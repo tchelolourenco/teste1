@@ -1,0 +1,159 @@
+html {
+    background-color: black;
+  }
+body {
+    background: black;
+    font-size:20px;
+    font-family: sans-serif, sans-serif, verdana;
+    color: white; 
+    margin: auto;
+}
+
+header#cabecalho{
+    background: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+figure#logocima img{
+    position: absolute;
+    Top: 0;
+    left: 0;
+    margin: 0;
+    padding: 45px 0;
+    right: auto;
+    width: 15%;
+    height: 20%;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;    
+    color: rgb(27, 177, 223);
+    text-shadow: 3px 3px 1px black;
+}
+
+.pqs{
+    position: absolute;
+    Top: 0;
+    right: 0;
+    margin: 0;
+    padding: 25px 0;
+    padding-right: 60px;
+}
+nav#menu{
+    display: block;
+    text-align: center;
+}
+nav#menu ul{list-style: none;
+            
+}
+nav#menu li{
+    display: inline-block;
+    padding: 5px;
+    margin:5px;
+}
+nav#menu ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+table {
+    color:black;
+    text-size-adjust: center;
+    border: cornsilk;
+    border-color: rgb(255, 248, 248);
+    border-style: solid;
+    border-width: 5px;
+    text-decoration: none;
+    text-align: center; 
+    padding: 5px;
+    margin:auto;
+    background:rgb(27, 177, 223);
+    width: 500px;
+    height: 100px;
+    margin-left: 100px;
+}
+ 
+ .tabela h2{
+     color:rgb(27, 177, 223);
+     margin-left: 100px;
+ }
+
+.conteudo{
+    display:table;
+        
+}
+.tabela{
+    display:table-cell;
+   
+}
+
+.grafico{
+    display:table-cell;
+    
+    
+ }
+ .grafico h2{
+     padding-left: 475px;
+  
+ }
+
+.tabgrafico table{
+    
+        color:white;
+        border: cornsilk;
+        border-color: rgb(255, 248, 248);
+        border-style: solid;
+        border-width: 5px;
+        text-decoration: none;
+        text-align: center; 
+        padding: 65px;
+        margin:auto;
+        background:rgb(27, 177, 223);
+        width: 500px;
+        height: 100px;
+        margin-right: 0px;
+    }
+     
+.tabgrafico h2{
+    color:rgb(27, 177, 223)   
+        
+}
+    
+td a{
+    color: black;
+    
+}
+footer a{
+    color:white;
+    bottom: 0%;
+    padding: 0;
+    font-weight: bold;
+}
+
+footer{
+    color:white;
+    font-size: 12px;
+}
+
+figure#logobaixo img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10;
+    padding: 40px 0;
+    width: 5%;
+    height: 10%;
+    padding-right: 60px;
+}
+
+div#PP {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px;
+}
